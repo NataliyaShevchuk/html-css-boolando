@@ -1,3 +1,30 @@
+:root{
+    /* colore nav arancio */
+    --color-orange: #FF6900;
+    /* bg color degli sconti - rosso */
+    --color-red: #FF0000;
+    /* bg color degli sconti - verde */
+    --color-green: #008000;
+    /* colore per il cuore */
+    --cuore-salvati: #FD0D31;
+    --color-black: #1A1A1A;
+
+
+    /* font unico  */
+    --font: HelveticaNow,Helvetica,sans-serif; 
+    /* icona profilo */
+    /* icona Cuore x i salvati */
+    /* icona x il carrello */
+    /* icona per hover cuore  */
+
+    /* icone del footer  */ 
+    /* twitter */
+    /* facebook
+    IG 
+    Pintrest 
+    Youtube */
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,4 +34,10 @@
 img{
     width: 100%;
     display: block;
+}
+
+.container{
+    width: 920px;
+    margin: auto;
+    background-color: transparent;
 }

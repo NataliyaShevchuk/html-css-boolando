@@ -36,14 +36,8 @@ body{
 
 img{
     width: 100%;
-    display: block;
 }
 
-.container{
-    width: 920px;
-    margin: auto;
-    background-color: transparent;
-}
 
 header{
     background-color: var(--color-orange);
@@ -57,8 +51,7 @@ header{
 }
 
 .nav-container{
-    width: 100%;
-    /* height: 55px; */
+    width: 72.6%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -66,6 +59,26 @@ header{
     color: white;
     font-size: 14px;
 }
+
+.logo{
+    width: 100px; 
+}
+
+.categoria{
+    padding: 0 2px;
+    display: inline; 
+}
+
+.fa{
+    padding: 0 3px;
+}
+
+.container{
+    width: 920px;
+    margin: 60px auto;
+    background-color: transparent;
+}
+
 .card-container{
     display: flex;
     flex-wrap: wrap;
@@ -73,22 +86,93 @@ header{
 }
 .card{
     position: relative;
-    flex-basis: 33.3%;
-    overflow: hidden;
+    flex-basis: 32%;
+    flex-grow: 1;
+}
+.img-container:hover .overlay{
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s ease;
+}
+.sale{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    font-size: 11px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.heart{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    left: 260px;
+    bottom: 430px;
+}
+.heart:hover{
+    color: var(--cuore-salvati);
+}
+h6{
+    font-size: 14px;
+    font-weight: 500;
+}
+.red-sale{
+    background-color: var(--color-red);
+    color: white;
+    padding: 5px;
+}
+.eco-green{
+    background-color: var(--color-green);
+    color: white;
+    padding: 5px;
+}
+.price{
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 5px;
+}
+.red{
+    color: var(--color-red);
+}
+.original{
+    color: var(--color-black);
+    text-decoration: line-through;
 }
 
-.img-contenitore{
-    position: relative;
-    max-width: fit-content;
+footer{
+    width: 100%;
+    color: white;
+    background-color: var(--color-black);
+    padding: 30px 0;
+    margin-top: 40px;
+}
+.fix{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo{
-    width: 10%; 
+.contenitore-footer-sx{
+    display: inline-block;
 }
-.categoria{
-   padding: 0 2px;
-   display: inline; 
+.note-legali{
+    font-size: 8px;
+    padding: 5px 0;
 }
-.fa{
-    padding: 0 3px;
+.contenitore-footer-dx{
+    text-align: end;
+    font-size: 15px;
+}
+.social-bar{
+    padding-top: 5px;
+}
+h6{
+    font-size: small;
 }

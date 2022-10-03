@@ -51,11 +51,11 @@ header{
 }
 
 .nav-container{
-    width: 72.6%;
+    width: 920px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     font-size: 14px;
 }
